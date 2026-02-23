@@ -1,6 +1,7 @@
 
 import './App.css';
 import Counter from './Counter';
+import Batsman from './Batsman';
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       
    
       <h1>Vite + React</h1>
+      <Batsman></Batsman>
       <Counter></Counter>
       <button onClick={likebtn}>Like</button>
       <button onClick={()=>commentbtn(5)}>Comment</button>
