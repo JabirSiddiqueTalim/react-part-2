@@ -1,5 +1,7 @@
 
-import './App.css'
+import './App.css';
+import Counter from './Counter';
+
 
 function App() {
  
@@ -13,7 +15,10 @@ function App() {
   return (
     <>
      
+      
+   
       <h1>Vite + React</h1>
+      <Counter></Counter>
       <button onClick={likebtn}>Like</button>
       <button onClick={()=>commentbtn(5)}>Comment</button>
       <button onClick={()=>
